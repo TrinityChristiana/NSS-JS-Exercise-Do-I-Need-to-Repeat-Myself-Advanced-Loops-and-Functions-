@@ -14,10 +14,10 @@ function repeatMyself (theWordArray) {
       Write a `for` loop that iterates over the array argument and
       outputs the words.
      */
-    sentence = ``
+    sentence = ``;
     for(i = 0; i < theWordArray.length; i++){
-      sentence = `${sentence}  ${theWordArray[i]}`
-      console.log(sentence)
+      sentence = `${sentence}  ${theWordArray[i]}`;
+      console.log(sentence);
     }
 }
 
